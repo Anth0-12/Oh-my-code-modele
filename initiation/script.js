@@ -1,6 +1,7 @@
 // Je sélectionne et stock
 const btnRed = document.getElementById("btn-red");
 const btnBlue = document.getElementById("btn-blue");
+let titre = document.getElementById("titre");
 
 let compteur = 0;
 console.log(compteur, "compteur initial");
@@ -28,4 +29,5 @@ btnBlue.addEventListener("click", function () {
 function add() {
   compteur = compteur + 1;
   console.log(compteur, "compteur incrementé");
+  titre.innerHTML = "Compteur : " + compteur;
 }
