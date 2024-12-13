@@ -4,24 +4,15 @@ const btnBlue = document.getElementById("btn-blue");
 let titre = document.getElementById("titre");
 
 let compteur = 0;
-console.log(compteur, "compteur initial");
 
 // Je soumets le cercle rouge à une action
 btnRed.addEventListener("click", function () {
-  console.log("Clique sur le cercle rouge");
-
-  // Ici l'action
-
   // Incrémenter le compteur de 1 avec la fonction
   add();
 });
 
 // Je soumets le cercle bleu à une action
 btnBlue.addEventListener("click", function () {
-  console.log("Clique sur le cercle rouge");
-
-  // Ici l'action
-
   // Incrémenter le compteur de 1 avec la fonction
   add();
 });
@@ -31,3 +22,9 @@ function add() {
   console.log(compteur, "compteur incrementé");
   titre.innerHTML = "Compteur : " + compteur;
 }
+
+setTimeout(function () {
+  // Supprime les cercles
+  btnBlue.remove();
+  btnRed.remove();
+}, 10000); // Au bout de 10 secondes
