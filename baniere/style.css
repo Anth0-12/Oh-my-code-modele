@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+   font-size: 1.4rem; /* 14px */
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e2337;
+}
+
+h1 {
+    color: red;
+}
+
+.cookies {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    opacity: 1;
+    transition: 0.5s;
+}
+    .cookies-btn {
+        display: flex;
+    }
+        .btn {
+            padding: 1rem;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+            .btn-success {
+                background-color: #1e2337;
+            }
+            .btn-deny {
+                background-color: grey;
+            }
