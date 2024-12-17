@@ -1,6 +1,7 @@
 // Je sélectionne et stock
 const btnRed = document.getElementById("btn-red");
 const btnBlue = document.getElementById("btn-blue");
+const btnRejouez = document.querySelector("button");
 let titre = document.getElementById("titre");
 
 let compteur = 0;
@@ -28,3 +29,7 @@ setTimeout(function () {
   btnBlue.remove();
   btnRed.remove();
 }, 10000); // Au bout de 10 secondes
+
+btnRejouez.addEventListener("click", function () {
+  location.reload();
+});
