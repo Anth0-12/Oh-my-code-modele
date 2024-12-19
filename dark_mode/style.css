@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+   font-size: 1.4rem; /* 14px */
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2C3C54;
+}
+
+.switch {
+    width: 90px;
+    height: 30px;
+    padding: 1rem;
+
+    cursor: pointer;
+    border: 1px solid #1e2939;
+    border-radius: 15px;
+
+    background-color: #1e2939;
+
+    position: relative;
+}
+.switch i {
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    color: #ffd363
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    background-color: white;
+
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+
+.btn-change {
+    right: -1px;
+    left: auto; /* nécessaire pour ne pas prendre en compte la valeur left */
+}
+
+.icone-change {
+    left: 20px;
+}
