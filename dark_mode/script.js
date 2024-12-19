@@ -17,8 +17,8 @@ switchBox.addEventListener('click', function() {
     // Je change la couleur de fond du container
     container.classList.toggle('container-change');
     // Je change la couleur de fond du switch
-    titre.classList.toggle('titre-change');
-
+    switchBox.classList.toggle('switch-change');
+    
     // Je modifie le texte du titre
     if (titre.innerText === "Dark mode") {
         titre.innerText = "Light mode";
