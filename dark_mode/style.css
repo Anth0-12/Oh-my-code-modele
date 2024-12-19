@@ -23,6 +23,13 @@ body {
     flex-direction: column;
     background-color: #2C3C54;
 }
+.container-change {
+    background-color: #CBE6FF;
+}
+
+h1 {
+    color: red;
+}
 
 .switch {
     width: 90px;
@@ -36,6 +43,10 @@ body {
     background-color: #1e2939;
 
     position: relative;
+}
+.switch-change {
+    background-color: #61B3FF;
+    border: #61B3FF solid 1px;
 }
 .switch i {
     position: absolute;
