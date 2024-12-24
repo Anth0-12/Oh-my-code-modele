@@ -40,10 +40,11 @@ h1 {
     color: #1e2337;
     cursor: pointer;
 }
-i {
+.fa-face-meh-blank {
     cursor: pointer;
 }
-.happy {
+.fa-face-smile-wink {
+    cursor: pointer;
     color: rgb(242, 255, 0);
 }
 
