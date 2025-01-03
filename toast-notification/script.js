@@ -15,5 +15,5 @@ btn.addEventListener('click', function() {
                 notification.remove();    
             }, 500);  // Temps de l'animation de disparition
 
-    }, 500); // L'animation commence après 1 seconde
+    }, 500); // L'animation commence après 0.5 seconde
 });
